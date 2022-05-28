@@ -29,8 +29,8 @@ app.use(cors());
 //app.use('/mff', )
 //app.use('/fetch', )
 
-app.listen(port, () => {
-  console.log(`Example app listening at http://localhost:${port}`)
+app.listen(PORT, () => {
+  console.log(`Example app listening at http://localhost:${PORT}`)
 })
 
 module.exports=app
